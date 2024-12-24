@@ -1,5 +1,6 @@
 ﻿using Designathon_SkillNavigatorWebAPI.Data;
 using Designathon_SkillNavigatorWebAPI.Entities;
+using Microsoft.AspNetCore.Identity.Data;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Org.BouncyCastle.Crypto.Generators;
@@ -8,8 +9,8 @@ namespace Designathon_SkillNavigatorWebAPI.Controllers
 {
     public class UserControllercs :ControllerBase
     {
-        private readonly SKNsbcontext context;
-        public UserControllercs(SKNsbcontext context)
+        private readonly SKNdbcontext context;
+        public UserControllercs(SKNdbcontext context)
         {
             this.context = context;
         }
@@ -18,13 +19,13 @@ namespace Designathon_SkillNavigatorWebAPI.Controllers
             return enteredPassword== storedHashedPassword;
         }
         [HttpPost("validate")]
-        public async Task<ActionResult<User>> ValidateLogin(string username, string password)
+        public async Task<ActionResult<User>> ValidateLogin([FromBody] LoginRequest request)
         {
             // Fetch user based on username
-            var user = await context.Users.SingleOrDefaultAsync(x => x.Username == username);
+            var user = await context.Users.SingleOrDefaultAsync(x => x.Username == request.Username);
 
             // Check if user exists and validate the password
-            if (user != null && VerifyPassword(password, user.Password))
+            if (user != null && VerifyPassword(request.Password, user.Password))
             {
                 return Ok(user); // Return the user if validation succeeds
             }
@@ -55,5 +56,11 @@ namespace Designathon_SkillNavigatorWebAPI.Controllers
 
 
         }
+    }
+    // DTO for the request
+    public class LoginRequest
+    {
+        public string Username { get; set; }
+        public string Password { get; set; }
     }
 }

@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace Designathon_SkillNavigatorWebAPI.Migrations
 {
-    [DbContext(typeof(SKNsbcontext))]
+    [DbContext(typeof(SKNdbcontext))]
     partial class SKNsbcontextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)

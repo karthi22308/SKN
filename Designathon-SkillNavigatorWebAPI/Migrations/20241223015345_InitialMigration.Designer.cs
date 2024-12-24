@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace Designathon_SkillNavigatorWebAPI.Migrations
 {
-    [DbContext(typeof(SKNsbcontext))]
+    [DbContext(typeof(SKNdbcontext))]
     [Migration("20241223015345_InitialMigration")]
     partial class InitialMigration
     {

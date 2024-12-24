@@ -3,9 +3,9 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Designathon_SkillNavigatorWebAPI.Data
 {
-    public class SKNsbcontext : DbContext
+    public class SKNdbcontext : DbContext
     {
-        public SKNsbcontext(DbContextOptions options) : base(options)
+        public SKNdbcontext(DbContextOptions options) : base(options)
         {
 
         }

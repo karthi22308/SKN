@@ -1,10 +1,13 @@
 import axios from 'axios';
 
-const API_BASE_URL = 'http://localhost:7181/api/Users'; 
+const API_BASE_URL = 'http://localhost:5220'; 
 
 export const validateUser = async (username: string, password: string) => {
-  const response = await axios.post(`${API_BASE_URL}/validate`, { username, password });
-  return response.data;
+  const response = await axios.post(`${API_BASE_URL}/validate`, { 
+  "username" :username,
+  "password" :password });
+  console.log(response)
+  return response;
 };
 
 export const registerUser = async (userData: Record<string, string | number>) => {
