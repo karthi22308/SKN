@@ -3,6 +3,7 @@ using Designathon_SkillNavigatorWebAPI.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Designathon_SkillNavigatorWebAPI.Migrations
 {
     [DbContext(typeof(SKNdbcontext))]
-    partial class SKNsbcontextModelSnapshot : ModelSnapshot
+    [Migration("20241224060937_cmdlet Add-Migration")]
+    partial class cmdletAddMigration
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
