@@ -7,7 +7,7 @@ export const validateUser = async (username: string, password: string) => {
   "username" :username,
   "password" :password });
   console.log(response)
-  return response;
+  return response.data;
 };
 
 export const registerUser = async (userData: Record<string, string | number>) => {

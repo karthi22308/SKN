@@ -33,6 +33,23 @@ namespace Designathon_SkillNavigatorWebAPI.Controllers
             // Return Unauthorized if validation fails
             return Unauthorized("Invalid username or password.");
         }
+        [HttpPost("fetchstudents")]
+        public async Task<ActionResult<List<User>>> FetchStudents()
+        {
+            // Fetch all users with the role of "Student"
+            var students = await context.Users.Where(x => x.Role == "Student").ToListAsync();
+
+            // Return the list of students
+            return Ok(students);
+        }
+
+        [HttpPost("fetchtrainers")]
+        public async Task<ActionResult<List<Trainer>>> fetchtrainers()
+        {
+            var trainers = await context.Trainers.ToListAsync();
+            return Ok(trainers);
+        }
+
         [HttpPost("register")]
         public IActionResult RegisterUser([FromBody] User request)
         {
@@ -50,7 +67,21 @@ namespace Designathon_SkillNavigatorWebAPI.Controllers
 
             };
             newUser = request;
-            context.Users.Add(newUser);
+            context.Users.Add(request);
+
+            if (newUser.Role == "Trainer")
+            {
+                newUser = request;
+                var trainer = new Trainer
+                {
+                    Name= request.Username,
+                    Email= request.Email,
+                    Specialization= request.Specialization,
+                    PhoneNumber= request.PhoneNumber
+                };
+
+                context.Trainers.Add(trainer);
+            }
             context.SaveChanges();
             return Ok(new { Message = "Registration successful!" });
 

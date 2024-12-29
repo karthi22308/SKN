@@ -4,7 +4,7 @@ import { validateUser } from './api';
 import { useNavigate } from 'react-router-dom';
 import Topbar from '../../Components/TopBar'; // Adjust the path as necessary
 import Navbar from '../../Components/NavBar';
-//import '../../index.css';
+
 
 const Login: React.FC = () => {
   
@@ -30,14 +30,24 @@ const Login: React.FC = () => {
     e.preventDefault();
     setLoading(true);
     setError('');
-
+    const data = await validateUser(credentials.username, credentials.password);
     try {
-      const data = await validateUser(credentials.username, credentials.password);
+      
       console.log('Login successful:', data);
-      navigate('/dashboard'); // Redirect to dashboard on successful login
+      console.log('Login successful:', data); // Check what data looks like
+      console.log('Role received:', data.Role); 
+      if (data.role === 'Admin') {
+        navigate('/admin'); // Redirect to admin page
+      } else if (data.role === 'Student') {
+        navigate('/student'); // Redirect to student page
+      }else if (data.role === 'Trainer') {
+          navigate('/trainer'); // Redirect to student page
+      } else {
+        throw new Error('Unauthorized role');
+      }
     } catch (err) {
       console.error('Login failed:', err);
-      setError('Invalid username or password' + credentials.username + credentials.password);
+      setError('Invalid username or password'+err+data);
     } finally {
       setLoading(false);
     }
@@ -98,3 +108,6 @@ const Login: React.FC = () => {
 };
 
 export default Login;
+
+
+

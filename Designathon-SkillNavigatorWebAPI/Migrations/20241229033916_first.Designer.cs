@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Designathon_SkillNavigatorWebAPI.Migrations
 {
     [DbContext(typeof(SKNdbcontext))]
-    [Migration("20241224131553_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20241229033916_first")]
+    partial class first
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
