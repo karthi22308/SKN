@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Designathon_SkillNavigatorWebAPI.Migrations
 {
     [DbContext(typeof(SKNdbcontext))]
-    [Migration("20241229033916_first")]
+    [Migration("20241230055514_first")]
     partial class first
     {
         /// <inheritdoc />
@@ -309,7 +309,7 @@ namespace Designathon_SkillNavigatorWebAPI.Migrations
                     b.Property<string>("Certifications")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("CoursesCompleted")
+                    b.Property<string>("College")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Degree")

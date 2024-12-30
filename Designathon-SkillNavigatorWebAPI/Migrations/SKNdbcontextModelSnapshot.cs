@@ -306,7 +306,7 @@ namespace Designathon_SkillNavigatorWebAPI.Migrations
                     b.Property<string>("Certifications")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("CoursesCompleted")
+                    b.Property<string>("College")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Degree")

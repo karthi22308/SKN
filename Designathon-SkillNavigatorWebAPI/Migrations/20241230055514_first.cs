@@ -74,7 +74,7 @@ namespace Designathon_SkillNavigatorWebAPI.Migrations
                     PhoneNumber = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Certifications = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     InternshipDetails = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    CoursesCompleted = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    College = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     LinkedInProfileLink = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     ProgrammingLanguagesKnown = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
