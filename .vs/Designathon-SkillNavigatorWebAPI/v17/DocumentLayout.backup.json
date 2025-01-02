@@ -1,22 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\2000078164\\skn\\SKN\\",
+  "WorkspaceRootPath": "C:\\Users\\2000078330\\pavanrepo\\skn\\SKN2\\SKN\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\2000078164\\skn\\SKN\\Designathon-SkillNavigatorWebAPI\\Migrations\\20241230055514_first.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Designathon-SkillNavigatorWebAPI\\Migrations\\20241230055514_first.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2DDEA094-B6AA-43BA-8B49-97984E0817B3}|Designathon-SkillNavigatorWebAPI\\Designathon-SkillNavigatorWebAPI.csproj|c:\\users\\2000078330\\pavanrepo\\skn\\skn2\\skn\\designathon-skillnavigatorwebapi\\controllers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DDEA094-B6AA-43BA-8B49-97984E0817B3}|Designathon-SkillNavigatorWebAPI\\Designathon-SkillNavigatorWebAPI.csproj|solutionrelative:designathon-skillnavigatorwebapi\\controllers\\reportcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2DDEA094-B6AA-43BA-8B49-97984E0817B3}|Designathon-SkillNavigatorWebAPI\\Designathon-SkillNavigatorWebAPI.csproj|c:\\users\\2000078164\\skn\\skn\\designathon-skillnavigatorwebapi\\entities\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2DDEA094-B6AA-43BA-8B49-97984E0817B3}|Designathon-SkillNavigatorWebAPI\\Designathon-SkillNavigatorWebAPI.csproj|c:\\users\\2000078330\\pavanrepo\\skn\\skn2\\skn\\designathon-skillnavigatorwebapi\\entities\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DDEA094-B6AA-43BA-8B49-97984E0817B3}|Designathon-SkillNavigatorWebAPI\\Designathon-SkillNavigatorWebAPI.csproj|solutionrelative:designathon-skillnavigatorwebapi\\entities\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DDEA094-B6AA-43BA-8B49-97984E0817B3}|Designathon-SkillNavigatorWebAPI\\Designathon-SkillNavigatorWebAPI.csproj|c:\\users\\2000078330\\pavanrepo\\skn\\skn2\\skn\\designathon-skillnavigatorwebapi\\entities\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2DDEA094-B6AA-43BA-8B49-97984E0817B3}|Designathon-SkillNavigatorWebAPI\\Designathon-SkillNavigatorWebAPI.csproj|solutionrelative:designathon-skillnavigatorwebapi\\entities\\feedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2DDEA094-B6AA-43BA-8B49-97984E0817B3}|Designathon-SkillNavigatorWebAPI\\Designathon-SkillNavigatorWebAPI.csproj|c:\\users\\2000078164\\skn\\skn\\designathon-skillnavigatorwebapi\\entities\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2DDEA094-B6AA-43BA-8B49-97984E0817B3}|Designathon-SkillNavigatorWebAPI\\Designathon-SkillNavigatorWebAPI.csproj|c:\\users\\2000078330\\pavanrepo\\skn\\skn2\\skn\\designathon-skillnavigatorwebapi\\entities\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2DDEA094-B6AA-43BA-8B49-97984E0817B3}|Designathon-SkillNavigatorWebAPI\\Designathon-SkillNavigatorWebAPI.csproj|solutionrelative:designathon-skillnavigatorwebapi\\entities\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2DDEA094-B6AA-43BA-8B49-97984E0817B3}|Designathon-SkillNavigatorWebAPI\\Designathon-SkillNavigatorWebAPI.csproj|c:\\users\\2000078164\\skn\\skn\\designathon-skillnavigatorwebapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{2DDEA094-B6AA-43BA-8B49-97984E0817B3}|Designathon-SkillNavigatorWebAPI\\Designathon-SkillNavigatorWebAPI.csproj|c:\\users\\2000078330\\pavanrepo\\skn\\skn2\\skn\\designathon-skillnavigatorwebapi\\controllers\\usercontrollercs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DDEA094-B6AA-43BA-8B49-97984E0817B3}|Designathon-SkillNavigatorWebAPI\\Designathon-SkillNavigatorWebAPI.csproj|solutionrelative:designathon-skillnavigatorwebapi\\controllers\\usercontrollercs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DDEA094-B6AA-43BA-8B49-97984E0817B3}|Designathon-SkillNavigatorWebAPI\\Designathon-SkillNavigatorWebAPI.csproj|c:\\users\\2000078330\\pavanrepo\\skn\\skn2\\skn\\designathon-skillnavigatorwebapi\\data\\skndbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DDEA094-B6AA-43BA-8B49-97984E0817B3}|Designathon-SkillNavigatorWebAPI\\Designathon-SkillNavigatorWebAPI.csproj|solutionrelative:designathon-skillnavigatorwebapi\\data\\skndbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DDEA094-B6AA-43BA-8B49-97984E0817B3}|Designathon-SkillNavigatorWebAPI\\Designathon-SkillNavigatorWebAPI.csproj|c:\\users\\2000078330\\pavanrepo\\skn\\skn2\\skn\\designathon-skillnavigatorwebapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{2DDEA094-B6AA-43BA-8B49-97984E0817B3}|Designathon-SkillNavigatorWebAPI\\Designathon-SkillNavigatorWebAPI.csproj|solutionrelative:designathon-skillnavigatorwebapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DDEA094-B6AA-43BA-8B49-97984E0817B3}|Designathon-SkillNavigatorWebAPI\\Designathon-SkillNavigatorWebAPI.csproj|c:\\users\\2000078330\\pavanrepo\\skn\\skn2\\skn\\designathon-skillnavigatorwebapi\\migrations\\20241230055514_first.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DDEA094-B6AA-43BA-8B49-97984E0817B3}|Designathon-SkillNavigatorWebAPI\\Designathon-SkillNavigatorWebAPI.csproj|solutionrelative:designathon-skillnavigatorwebapi\\migrations\\20241230055514_first.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,63 +42,109 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "20241230055514_first.cs",
-              "DocumentMoniker": "C:\\Users\\2000078164\\skn\\SKN\\Designathon-SkillNavigatorWebAPI\\Migrations\\20241230055514_first.cs",
-              "RelativeDocumentMoniker": "Designathon-SkillNavigatorWebAPI\\Migrations\\20241230055514_first.cs",
-              "ToolTip": "C:\\Users\\2000078164\\skn\\SKN\\Designathon-SkillNavigatorWebAPI\\Migrations\\20241230055514_first.cs",
-              "RelativeToolTip": "Designathon-SkillNavigatorWebAPI\\Migrations\\20241230055514_first.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Report.cs",
+              "DocumentMoniker": "C:\\Users\\2000078330\\pavanrepo\\skn\\SKN2\\SKN\\Designathon-SkillNavigatorWebAPI\\Entities\\Report.cs",
+              "RelativeDocumentMoniker": "Designathon-SkillNavigatorWebAPI\\Entities\\Report.cs",
+              "ToolTip": "C:\\Users\\2000078330\\pavanrepo\\skn\\SKN2\\SKN\\Designathon-SkillNavigatorWebAPI\\Entities\\Report.cs",
+              "RelativeToolTip": "Designathon-SkillNavigatorWebAPI\\Entities\\Report.cs",
+              "ViewState": "AgIAADoAAAAAoJmZmZn7vzsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T05:55:14.735Z",
+              "WhenOpened": "2025-01-02T17:17:53.645Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "ReportController.cs",
+              "DocumentMoniker": "C:\\Users\\2000078330\\pavanrepo\\skn\\SKN2\\SKN\\Designathon-SkillNavigatorWebAPI\\Controllers\\ReportController.cs",
+              "RelativeDocumentMoniker": "Designathon-SkillNavigatorWebAPI\\Controllers\\ReportController.cs",
+              "ToolTip": "C:\\Users\\2000078330\\pavanrepo\\skn\\SKN2\\SKN\\Designathon-SkillNavigatorWebAPI\\Controllers\\ReportController.cs*",
+              "RelativeToolTip": "Designathon-SkillNavigatorWebAPI\\Controllers\\ReportController.cs*",
+              "ViewState": "AgIAAEkAAABwZmZmZmYiwF4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T17:16:06.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserControllercs.cs",
+              "DocumentMoniker": "C:\\Users\\2000078330\\pavanrepo\\skn\\SKN2\\SKN\\Designathon-SkillNavigatorWebAPI\\Controllers\\UserControllercs.cs",
+              "RelativeDocumentMoniker": "Designathon-SkillNavigatorWebAPI\\Controllers\\UserControllercs.cs",
+              "ToolTip": "C:\\Users\\2000078330\\pavanrepo\\skn\\SKN2\\SKN\\Designathon-SkillNavigatorWebAPI\\Controllers\\UserControllercs.cs",
+              "RelativeToolTip": "Designathon-SkillNavigatorWebAPI\\Controllers\\UserControllercs.cs",
+              "ViewState": "AgIAAAQAAADg/////78iwBYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T06:27:08.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20241230055514_first.cs",
+              "DocumentMoniker": "C:\\Users\\2000078330\\pavanrepo\\skn\\SKN2\\SKN\\Designathon-SkillNavigatorWebAPI\\Migrations\\20241230055514_first.cs",
+              "RelativeDocumentMoniker": "Designathon-SkillNavigatorWebAPI\\Migrations\\20241230055514_first.cs",
+              "ToolTip": "C:\\Users\\2000078330\\pavanrepo\\skn\\SKN2\\SKN\\Designathon-SkillNavigatorWebAPI\\Migrations\\20241230055514_first.cs",
+              "RelativeToolTip": "Designathon-SkillNavigatorWebAPI\\Migrations\\20241230055514_first.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T05:55:14.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Course.cs",
+              "DocumentMoniker": "C:\\Users\\2000078330\\pavanrepo\\skn\\SKN2\\SKN\\Designathon-SkillNavigatorWebAPI\\Entities\\Course.cs",
+              "RelativeDocumentMoniker": "Designathon-SkillNavigatorWebAPI\\Entities\\Course.cs",
+              "ToolTip": "C:\\Users\\2000078330\\pavanrepo\\skn\\SKN2\\SKN\\Designathon-SkillNavigatorWebAPI\\Entities\\Course.cs",
+              "RelativeToolTip": "Designathon-SkillNavigatorWebAPI\\Entities\\Course.cs",
+              "ViewState": "AgIAAAcAAADAzMzMzIw1wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T05:53:34.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Feedback.cs",
-              "DocumentMoniker": "C:\\Users\\2000078164\\skn\\SKN\\Designathon-SkillNavigatorWebAPI\\Entities\\Feedback.cs",
+              "DocumentMoniker": "C:\\Users\\2000078330\\pavanrepo\\skn\\SKN2\\SKN\\Designathon-SkillNavigatorWebAPI\\Entities\\Feedback.cs",
               "RelativeDocumentMoniker": "Designathon-SkillNavigatorWebAPI\\Entities\\Feedback.cs",
-              "ToolTip": "C:\\Users\\2000078164\\skn\\SKN\\Designathon-SkillNavigatorWebAPI\\Entities\\Feedback.cs",
+              "ToolTip": "C:\\Users\\2000078330\\pavanrepo\\skn\\SKN2\\SKN\\Designathon-SkillNavigatorWebAPI\\Entities\\Feedback.cs",
               "RelativeToolTip": "Designathon-SkillNavigatorWebAPI\\Entities\\Feedback.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAACgZmZmZiY4wAUAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-30T05:53:37.979Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Course.cs",
-              "DocumentMoniker": "C:\\Users\\2000078164\\skn\\SKN\\Designathon-SkillNavigatorWebAPI\\Entities\\Course.cs",
-              "RelativeDocumentMoniker": "Designathon-SkillNavigatorWebAPI\\Entities\\Course.cs",
-              "ToolTip": "C:\\Users\\2000078164\\skn\\SKN\\Designathon-SkillNavigatorWebAPI\\Entities\\Course.cs",
-              "RelativeToolTip": "Designathon-SkillNavigatorWebAPI\\Entities\\Course.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "SKNdbcontext.cs",
+              "DocumentMoniker": "C:\\Users\\2000078330\\pavanrepo\\skn\\SKN2\\SKN\\Designathon-SkillNavigatorWebAPI\\Data\\SKNdbcontext.cs",
+              "RelativeDocumentMoniker": "Designathon-SkillNavigatorWebAPI\\Data\\SKNdbcontext.cs",
+              "ToolTip": "C:\\Users\\2000078330\\pavanrepo\\skn\\SKN2\\SKN\\Designathon-SkillNavigatorWebAPI\\Data\\SKNdbcontext.cs",
+              "RelativeToolTip": "Designathon-SkillNavigatorWebAPI\\Data\\SKNdbcontext.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAADwvw8AAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T05:53:34.647Z",
+              "WhenOpened": "2025-01-02T17:25:14.574Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\2000078164\\skn\\SKN\\Designathon-SkillNavigatorWebAPI\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\2000078330\\pavanrepo\\skn\\SKN2\\SKN\\Designathon-SkillNavigatorWebAPI\\appsettings.json",
               "RelativeDocumentMoniker": "Designathon-SkillNavigatorWebAPI\\appsettings.json",
-              "ToolTip": "C:\\Users\\2000078164\\skn\\SKN\\Designathon-SkillNavigatorWebAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\2000078330\\pavanrepo\\skn\\SKN2\\SKN\\Designathon-SkillNavigatorWebAPI\\appsettings.json",
               "RelativeToolTip": "Designathon-SkillNavigatorWebAPI\\appsettings.json",
               "ViewState": "AgIAAAIAAAAAAAAAAAAhwAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-30T05:44:40.411Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-30T05:44:40.411Z"
             }
           ]
         }
