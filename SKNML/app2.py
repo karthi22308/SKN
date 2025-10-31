@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from openai import AzureOpenAI
 def generate_response(input):
-    client = AzureOpenAI(api_version='2024-06-01', azure_endpoint='https://hexavarsity-secureapi.azurewebsites.net/api/azureai', api_key='4ceeaa9071277c5b')
+    client = AzureOpenAI(api_version='2024-06-01', azure_endpoint='https://hexavarsity-secureapi.azurewebsites.net/api/azureai', api_key='')
     res = client.chat.completions.create(
         model="gpt-4o-mini",
         messages=[{'role': 'user', 'content': input}],
