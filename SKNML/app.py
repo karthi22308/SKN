@@ -14,6 +14,7 @@ def generate_response(input):
         top_p=0.6,
         frequency_penalty=0.7
     )
+    c=9908
     return res.choices[0].message.content
 # Load the trained model
 knn = joblib.load('knn_model.pkl')
